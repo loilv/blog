@@ -1,0 +1,20 @@
+{% extends 'master.html' %}
+{% load static %}
+{% block home %}
+    <div class="site-content">
+        {% include 'home/blocks/post_grid_featured.html' %}
+
+
+        {% include 'home/blocks/post_grid_a.html' %}
+
+
+        {% include 'home/blocks/post_grid_b.html' %}
+
+
+        {% include 'home/blocks/post_grid_c.html' %}
+
+
+        {% include 'home/blocks/post_lastest.html' %}
+
+    </div>
+{% endblock home %}
